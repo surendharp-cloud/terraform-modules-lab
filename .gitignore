@@ -8,6 +8,7 @@
 # Crash logs
 crash.log
 
-# Sensitive variable files
-*.tfvars
+# Ignore only sensitive variable files
+*.auto.tfvars
+secrets.tfvars
 *.tfvars.json
