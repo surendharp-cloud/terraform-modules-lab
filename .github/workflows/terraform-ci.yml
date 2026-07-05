@@ -35,5 +35,5 @@ jobs:
       - name: Terraform Validate
         run: terraform validate
 
-      - name: Terraform Plan
+      - name: Terraform Plan (Dev)
         run: terraform plan -no-color
