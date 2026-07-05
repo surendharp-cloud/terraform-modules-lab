@@ -4,7 +4,7 @@ moved {
 }
 locals {
   resource_group_name = "rg-${var.environment}-demo"
-  vnet_name="vnet-${var.environment}-demo"
+  vnet_name           = "vnet-${var.environment}-demo"
 }
 module "resource_group" {
   source = "../../modules/resource-group"
